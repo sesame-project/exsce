@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "geom": "https://comp-rob2b.github.io/metamodels/geometry/spatial-operators#",
+
+        "ComposePose": "geom:ComposePose",
+
+        "pose1": {
+            "@id": "geom:pose1",
+            "@type": "@id"
+        },
+        "pose2": {
+            "@id": "geom:pose2",
+            "@type": "@id"
+        },
+        "pose-out": {
+            "@id": "geom:pose-out",
+            "@type": "@id"
+        }
+    }
+}

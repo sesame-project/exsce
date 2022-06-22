@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "kc": "https://comp-rob2b.github.io/metamodels/kinematic-chain/operators#",
+
+        "ForwardPositionKinematics": "kc:ForwardPositionKinematics",
+
+        "joint": {
+            "@id": "kc:joint",
+            "@type": "@id"
+        },
+        "joint-space-motion": {
+            "@id": "kc:joint-space-motion",
+            "@type": "@id"
+        },
+        "cartesian-space-motion": {
+            "@id": "kc:cartesian-space-motion",
+            "@type": "@id"
+        }
+    }
+}
