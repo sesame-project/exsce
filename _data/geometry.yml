@@ -1,0 +1,15 @@
+- name: coordinates.json
+  path: metamodels/geometry/coordinates.json
+  description: TODO
+
+- name: spatial-operators.json
+  path: metamodels/geometry/spatial-operators.json
+  description: TODO
+
+- name: spatial-relations.json
+  path: metamodels/geometry/spatial-relations.json
+  description: TODO
+
+- name: structural-entities.json
+  path: metamodels/geometry/structural-entities.json
+  description: TODO
