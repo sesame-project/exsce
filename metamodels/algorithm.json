@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "algo": "https://comp-rob2b.github.io/metamodels/algorithm#",
+
+        "Schedule": "algo:Schedule",
+
+        "trigger-chain": {
+            "@id": "algo:trigger-chain",
+            "@type": "@id",
+            "@container": "@list"
+        }
+    }
+}

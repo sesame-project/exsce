@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "geom": "https://comp-rob2b.github.io/metamodels/geometry/coordinates#",
+
+        "OrientationReference": "geom:OrientationReference",
+        "PositionReference": "geom:PositionReference",
+        "PoseReference": "geom:PoseReference",
+        "OrientationCoordinate": "geom:OrientationCoordinate",
+        "PositionCoordinate": "geom:PositionCoordinate",
+        "PoseCoordinate": "geom:PoseCoordinate",
+
+        "Coordinates": "geom:Coordinates",
+        "RotationRowXYZ": "geom:RotationRowXYZ",
+        "VectorXYZ": "geom:VectorXYZ",
+        "RowXY": "geom:RowXY",
+        "RowXYW": "geom:RowXYW",
+        "RowXYZW": "geom:RowXYZW",
+        "AngularLinear": "geom:AngularLinear",
+
+        "of-orientation": {
+            "@id": "geom:of-orientation",
+            "@type": "@id"
+        },
+        "of-position": {
+            "@id": "geom:of-position",
+            "@type": "@id"
+        },
+        "of-pose": {
+            "@id": "geom:of-pose",
+            "@type": "@id"
+        },
+        "as-seen-by": {
+            "@id": "geom:as-seen-by",
+            "@type": "@id"
+        },
+
+        "coordinates": {
+            "@id": "geom:coordinates",
+            "@type": "@id",
+            "@container": "@list"
+        },
+        "angular": {
+            "@id": "geom:angular",
+            "@type": "@id",
+            "@container": "@list"
+        },
+        "linear": {
+            "@id": "geom:linear",
+            "@type": "@id",
+            "@container": "@list"
+        },
+
+        "direction-cosine-x": {
+            "@id": "geom:direction-cosine-x",
+            "@container": "@list",
+            "@type": "xsd:double"
+        },
+        "direction-cosine-y": {
+            "@id": "geom:direction-cosine-y",
+            "@container": "@list",
+            "@type": "xsd:double"
+        },
+        "direction-cosine-z": {
+            "@id": "geom:direction-cosine-z",
+            "@container": "@list",
+            "@type": "xsd:double"
+        },
+
+        "x": {
+            "@id": "geom:x",
+            "@type": "xsd:double"
+        },
+        "y": {
+            "@id": "geom:y",
+            "@type": "xsd:double"
+        },
+        "z": {
+            "@id": "geom:z",
+            "@type": "xsd:double"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "geom": "https://comp-rob2b.github.io/metamodels/geometry/structural-entities#",
+
+        "Euclidean": "geom:Euclidean",
+
+        "2D": "geom:2D",
+        "3D": "geom:3D",
+
+        "Point": "geom:Point",
+        "Vector": "geom:Vector",
+        "UnitLength": "geom:UnitLength",
+        "UnitVector": "geom:UnitVector",
+        "BoundVector": "geom:BoundVector",
+        "RotationFrame": "geom:RotationFrame",
+        "Frame": "geom:Frame",
+        "Orthonormal": "geom:Orthonormal",
+        "Orthogonal": "geom:Orthogonal",
+        "VectorsXYZ": "geom:VectorsXYZ",
+        "OriginVectorsXYZ": "geom:OriginVectorsXYZ",
+        "VectorList": "geom:VectorList",
+        "OriginVectorList": "geom:OriginVectorList",
+        "OriginVectorListReference": "geom:OriginVectorListReference",
+        "SimplicialComplex": "geom:SimplicialComplex",
+
+        "start": {
+            "@id": "geom:start",
+            "@type": "@id"
+        },
+        "end": {
+            "@id": "geom:end",
+            "@type": "@id"
+        },
+        "origin": {
+            "@id": "geom:origin",
+            "@type": "@id"
+        },
+        "vectors": {
+            "@id": "geom:vectors",
+            "@type": "@id",
+            "@container": "@list"
+        },
+        "rotation-frame": {
+            "@id": "geom:rotation-frame",
+            "@type": "@id"
+        },
+        "vector-x": {
+            "@id": "geom:vector-x",
+            "@type": "@id"
+        },
+        "vector-y": {
+            "@id": "geom:vector-y",
+            "@type": "@id"
+        },
+        "vector-z": {
+            "@id": "geom:vector-z",
+            "@type": "@id"
+        },
+
+        "simplices": {
+            "@id": "geom:simplices",
+            "@type": "@id",
+            "@container": "@set"
+        }
+    }
+}
