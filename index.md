@@ -23,7 +23,5 @@ This is the landing page to showcase the metamodels and models developed in the 
 
 ### Floor Plan
 
-### Acceptance Criteria
-
 ## Tutorials
 

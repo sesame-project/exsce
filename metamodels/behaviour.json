@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "bhv": "https://sesame-project.github.io/exsce-artefacts/metamodels/behaviour#",
+
+        "Behaviour": { "@id": "bhv:Behaviour" },
+        "of-behaviour": { "@id": "bhv:of-behaviour", "@type": "@id" }
+    }
+}

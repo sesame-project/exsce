@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "events": "https://sesame-project.github.io/exsce-artefacts/metamodels/coordination/events#",
+
+        "Event": { "@id": "events:Event" },
+        "has-event": { "@id": "events:has-event", "@type": "@id" },
+
+        "EventLoop": { "@id": "events:EventLoop" },
+        "event-loop": { "@id": "events:event-loop", "@type": "@id" },
+
+        "EventLoopConn": { "@id": "events:EventLoopConn" },
+        "el-conn": { "@id": "events:event-loop-connection", "@type": "@id" }
+    }
+}

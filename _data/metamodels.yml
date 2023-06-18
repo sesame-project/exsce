@@ -47,3 +47,23 @@
   - name: qudt.json
     path: metamodels/qudt.json
     description: TODO
+
+- name: Acceptance Criteria
+  description: Metamodels for specifying acceptance criteria of robotic scenarios
+  files:
+  - name: bdd.json
+    path: metamodels/acceptance-criteria/bdd.json
+    description: Behaviour-Driven Development metamodel
+
+- name: Scenario
+  description: Metamodels for specifying robotic scenarios
+  files:
+  - name: agent.json
+    path: metamodels/agent.json
+    description: Concepts to specify robots and persons in a scenario
+  - name: environment.json
+    path: metamodels/environment.json
+    description: Concepts to specify objects and workspaces in a scenario
+  - name: behaviour.json
+    path: metamodels/behaviour.json
+    description: Concepts abstract behaviours of robots in a scenario
