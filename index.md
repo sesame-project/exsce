@@ -10,15 +10,16 @@ This is the landing page to showcase the metamodels and models developed in the 
 [SESAME project](https://www.sesame-project.org/) to support the Executable Workbench.
 
 ## Metamodels
+{% for domain in site.data.metamodels %}
+### {{ domain.name }}
 
-### Geometry
+{{domain.description}}
 
 | File | Description |
-|:-----|:-----|{% for file in site.data.geometry %}
+|:-----|:-----|{% for file in domain.files %}
 |[{{ file.name }}]({{ file.path }}) | {{ file.description }} |{% endfor %}
 
-
-### Algorithm
+{% endfor %}
 
 ### Floor Plan
 
