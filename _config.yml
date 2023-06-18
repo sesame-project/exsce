@@ -5,7 +5,7 @@ plugins:
 # General infos
 title: ExSce Workbench
 logo: /assets/img/sesame_logo_tagline.svg
-description: JSON-LD Artefacts for the Executable Scenario Workbench
+description: Artefacts for the Executable Scenario Workbench
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal

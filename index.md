@@ -2,11 +2,11 @@
 layout: default
 ---
 
-# JSON-LD Artefacts
+# Executable Scenario Artefacts
 
 ## Overview
 
-This is the landing page to showcase the JSON-LD metamodels and models developed in the context of the
+This is the landing page to showcase the metamodels and models developed in the context of the
 [SESAME project](https://www.sesame-project.org/) to support the Executable Workbench.
 
 ## Metamodels
