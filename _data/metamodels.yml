@@ -2,50 +2,50 @@
   description: TODO
   files:
   - name: coordinates.json
-    path: metamodels/geometry/coordinates.json
+    path: https://comp-rob2b.github.io/metamodels/geometry/coordinates.json
     description: TODO
   - name: spatial-operators.json
-    path: metamodels/geometry/spatial-operators.json
+    path: https://comp-rob2b.github.io/metamodels/geometry/spatial-operators.json
     description: TODO
   - name: spatial-relations.json
-    path: metamodels/geometry/spatial-relations.json
+    path: https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json
     description: TODO
   - name: structural-entities.json
-    path: metamodels/geometry/structural-entities.json
+    path: https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json
     description: TODO
 
 - name: Kinematic Chain
   description: TODO
   files:
   - name: operators.json
-    path: metamodels/kinematic-chain/operators.json
+    path: https://comp-rob2b.github.io/metamodels/kinematic-chain/operators.json
     description: TODO
   - name: state.json
-    path: metamodels/kinematic-chain/state.json
+    path: https://comp-rob2b.github.io/metamodels/kinematic-chain/state.json
     description: TODO
   - name: structural-entities.json
-    path: metamodels/kinematic-chain/structural-entities.json
+    path: https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json
     description: TODO
 
 - name: Algorithm
   description: TODO
   files:
   - name: algorithm.json
-    path: metamodels/algorithm.json
+    path: https://comp-rob2b.github.io/metamodels/algorithm.json
     description: TODO
 
 - name: Dynamics
   description: TODO
   files:
   - name: newtonian-rigid-body-dynamics.json
-    path: metamodels/newtonian-rigid-body-dynamics.json
+    path: https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics.json
     description: TODO
 
 - name: Units
   description: TODO
   files:
   - name: qudt.json
-    path: metamodels/qudt.json
+    path: https://comp-rob2b.github.io/metamodels/qudt.json
     description: TODO
 
 - name: Acceptance Criteria

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Executable Scenario Artefacts
+# Repository of Executable Scenarios
 
 ## Overview
 
