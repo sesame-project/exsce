@@ -52,18 +52,25 @@
   description: Metamodels for specifying acceptance criteria of robotic scenarios
   files:
   - name: bdd.json
-    path: metamodels/acceptance-criteria/bdd.json
+    path: https://hbrs-sesame.github.io/metamodels/acceptance-criteria/bdd.json
     description: Behaviour-Driven Development metamodel
+
+- name: Coordination
+  description: Metamodels for coordinating the execution of robot behaviours
+  files:
+  - name: event.json
+    path: https://hbrs-sesame.github.io/metamodels/coordination/event.json
+    description: Concepts for and relations used in event-driven architectures
 
 - name: Scenario
   description: Metamodels for specifying robotic scenarios
   files:
   - name: agent.json
-    path: metamodels/agent.json
+    path: https://hbrs-sesame.github.io/metamodels/agent.json
     description: Concepts to specify robots and persons in a scenario
   - name: environment.json
-    path: metamodels/environment.json
+    path: https://hbrs-sesame.github.io/metamodels/environment.json
     description: Concepts to specify objects and workspaces in a scenario
   - name: behaviour.json
-    path: metamodels/behaviour.json
+    path: https://hbrs-sesame.github.io/metamodels/behaviour.json
     description: Concepts abstract behaviours of robots in a scenario
