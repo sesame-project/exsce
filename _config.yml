@@ -5,7 +5,7 @@ plugins:
 # General infos
 title: Executable Scenario
 logo: assets/img/sesame_logo_tagline.svg
-description: Landing page for the models and toolings developed within the Executable Scenario (ExSce) Work Package.
+description: The Executable Scenario (ExSce) Work Package of the SESAME project.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
