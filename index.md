@@ -1,27 +1,19 @@
 ---
 layout: default
 ---
+# Executable Scenario (ExSce)
 
-# Repository of Executable Scenarios
+This is the landing page for the models and tools developed for the executable scenario workbench,
+which includes:
 
-## Overview
+1. [**Executable Scenario Management**](TODO): graph-based scenario-management approach
+2. [**An open repository of executable scenarios**](exsce-repo.md):
+    A repository of models and metamodels developed to support scenario specification for
+    Multi-Robot Systems (MRS).
+3. [**Executable Workbench**](exsce-workbench.md): collection of tools that supports stakeholders
+    in carrying out one or more activities of the ExSce Methodology.
 
-This is the landing page to showcase the metamodels and models developed in the context of the
-[SESAME project](https://www.sesame-project.org/) to support the Executable Workbench.
+## Acknowledgement
 
-## Metamodels
-{% for domain in site.data.metamodels %}
-### {{ domain.name }}
-
-{{domain.description}}
-
-| File | Description |
-|:-----|:-----|{% for file in domain.files %}
-|[{{ file.name }}]({{ file.path }}) | {{ file.description }} |{% endfor %}
-
-{% endfor %}
-
-### Floor Plan
-
-## Tutorials
-
+This work is partly funded by the [SESAME H2020 project](https://www.sesame-project.org/),
+under grant agreement No 101017258.
