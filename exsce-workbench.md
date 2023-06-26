@@ -12,5 +12,5 @@ activities of the ExSce Methodology. This includes:
   [models' landing page](https://sesame-project.github.io/exsce/exsce-repo.html).
   A [tutorial](https://github.com/comp-rob2b/modelling-tutorial/) is also available
   showing how to compose these metamodels into kinematic chain models.
-- [`bdd-dsl`](https://hbrs-sesame.github.io/bdd-dsl/): metamodels and associated tooling for
+- [bdd-dsl](https://hbrs-sesame.github.io/bdd-dsl/): metamodels and associated tooling for
   applying Behavior-Driven Development (BDD) to test robotic scenarios.

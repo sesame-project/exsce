@@ -52,34 +52,44 @@
     description: TODO
 
 - name: Acceptance Criteria
-  description: Metamodels for specifying acceptance criteria of robotic scenarios
+  description: Metamodels for specifying acceptance criteria of robotic scenarios.
   files:
   - name: bdd.json
     path: https://hbrs-sesame.github.io/metamodels/acceptance-criteria/bdd.json
-    description: Behaviour-Driven Development metamodel
+    description:
+      Metamodel for specifying BDD templates and their variants, see
+      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#bdd-scenario-templates-and-variants)
 
 - name: Coordination
   description: Metamodels for coordinating the execution of robot behaviours
   files:
   - name: event.json
     path: https://hbrs-sesame.github.io/metamodels/coordination/event.json
-    description: Concepts for and relations used in event-driven architectures
+    description:
+      Metamodel for specifying event-driven coordination of robot behaviours, see
+      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#coordination)
 
 - name: Scenario
   description: Metamodels for specifying robotic scenarios
   files:
   - name: agent.json
     path: https://hbrs-sesame.github.io/metamodels/agent.json
-    description: Concepts to specify robots and persons in a scenario
+    description:
+      Metamodel for specifying agents in a robotic scenario, see
+      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#agent)
   - name: environment.json
     path: https://hbrs-sesame.github.io/metamodels/environment.json
-    description: Concepts to specify objects and workspaces in a scenario
-  - name: behaviour.json
-    path: https://hbrs-sesame.github.io/metamodels/behaviour.json
-    description: Concepts abstract behaviours of robots in a scenario
+    description:
+      Metamodel for specifying elements in the environment of a robotic scenario, see
+      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#environment)
+  - name: task.json
+    path: https://hbrs-sesame.github.io/metamodels/task.json
+    description:
+      Metamodel for specifying task-related concepts and relations in a robotic scenario, see
+      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#task)
 
 - name: Floor Plan
-  description: Metamodels for specifying indoor environments and objects 
+  description: Metamodels for specifying indoor environments and objects
   files:
     - name: floor-plan.json
       path: https://hbrs-sesame.github.io/metamodels/floor-plan/floor-plan.json
@@ -93,7 +103,7 @@
 
 - name: Simulation
   description: Metamodels for specific simulators
-  files: 
+  files:
     - name: gazebo.json
       path: https://hbrs-sesame.github.io/metamodels/simulation/gazebo.json
       description: Concepts for modelling the visual and collision representation of objects for Gazebo
