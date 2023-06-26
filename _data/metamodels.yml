@@ -13,6 +13,9 @@
   - name: structural-entities.json
     path: https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json
     description: TODO
+  - name: polytope.json
+    path: https://hbrs-sesame.github.io/metamodels/geometry/polytope.json
+    description: Concepts to model polytopes
 
 - name: Kinematic Chain
   description: TODO
@@ -74,3 +77,23 @@
   - name: behaviour.json
     path: https://hbrs-sesame.github.io/metamodels/behaviour.json
     description: Concepts abstract behaviours of robots in a scenario
+
+- name: Floor Plan
+  description: Metamodels for specifying indoor environments and objects 
+  files:
+    - name: floor-plan.json
+      path: https://hbrs-sesame.github.io/metamodels/floor-plan/floor-plan.json
+      description: Concepts for modelling floor plans
+    - name: object.json
+      path: https://hbrs-sesame.github.io/metamodels/floor-plan/object.json
+      description: Concepts for modelling objects
+    - name: state.json
+      path: https://hbrs-sesame.github.io/metamodels/floor-plan/state.json
+      description: Concepts for modelling states
+
+- name: Simulation
+  description: Metamodels for specific simulators
+  files: 
+    - name: gazebo.json
+      path: https://hbrs-sesame.github.io/metamodels/simulation/gazebo.json
+      description: Concepts for modelling the visual and collision representation of objects for Gazebo
