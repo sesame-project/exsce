@@ -16,12 +16,12 @@ work package of the [SESAME project](https://www.sesame-project.org/). This incl
 
 The ExSce workbench has been used to support the following scientific articles:
 
-1. ICRA paper (Sven and Desiana)
-2. IROS paper (Samuel and Argen)
-3. CASE paper (Salman)
+1. TODO: ICRA paper (Sven and Desiana)
+2. TODO: IROS paper (Samuel and Argen)
+3. TODO: CASE paper (Salman)
 4. M. Nguyen, N. Hochgeschwender, S. Wrede, "An analysis of behaviour-driven requirement specification for robotic competitions", [_5th International Workshop on Robotics Software Engineering (RoSE’23)_](https://rose-workshops.github.io/rose2023/), May 2023.
 
 ## Acknowledgement
 
-This work is funded by the European Union's Horizon 2020 research and innovation programme [SESAME]
-(https://www.sesame-project.org/), under grant agreement No 101017258.
+This work is funded by the European Union's Horizon 2020 research and innovation programme
+[SESAME](https://www.sesame-project.org/), under grant agreement No 101017258.
