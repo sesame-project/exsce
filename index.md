@@ -14,12 +14,23 @@ work package of the [SESAME project](https://www.sesame-project.org/). This incl
 3. **[Executable Workbench](exsce-workbench.md)**: collection of tools that supports stakeholders
     in carrying out one or more activities of the ExSce Methodology.
 
-The ExSce workbench has been used to support the following scientific articles:
+The ExSce workbench has been used to support the following scientific articles
+(chronologically ordered):
 
-1. TODO: ICRA paper (Sven and Desiana)
-2. TODO: IROS paper (Samuel and Argen)
-3. TODO: CASE paper (Salman)
-4. M. Nguyen, N. Hochgeschwender, S. Wrede, "An analysis of behaviour-driven requirement specification for robotic competitions", [_5th International Workshop on Robotics Software Engineering (RoSE’23)_](https://rose-workshops.github.io/rose2023/), May 2023.
+1. S. Parra, A. Ortega, S. Schneider, and N. Hochgeschwender, "A Thousand Worlds: Scenery
+   Specification and Generation for Simulation-Based Testing of Mobile Robot Navigation Stacks",
+   _IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2023.
+2. S. Schneider, N. Hochgeschwender, and H. Bruyninckx, "Domain-specific languages for kinematic
+   chains and their solver algorithms: lessons learned for composable models,"
+   _IEEE International Conference on Robotics and Automation (ICRA)_, 2023.
+3. D. Nurchalifah, S. Blumenthal, L. Lo Iacono, and N. Hochgeschwender, "Analysing the Safety and
+   Security of a UV-C Disinfection Robot,"
+   _IEEE International Conference on Robotics and Automation (ICRA)_, 2023.
+4. M. Nguyen, N. Hochgeschwender, S. Wrede, "An analysis of behaviour-driven requirement specification
+   for robotic competitions",
+   [_5th International Workshop on Robotics Software Engineering (RoSE’23)_](https://rose-workshops.github.io/rose2023/), 2023.
+5. S. Sohail, S. Schneider, and N. Hochgeschwender, "Automated Testing of Standard Conformance Testing
+   for Robots", _IEEE International Conference on Automation Science (CASE)_, 2023.
 
 ## Acknowledgement
 
