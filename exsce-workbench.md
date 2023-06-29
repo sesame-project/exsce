@@ -4,7 +4,7 @@ layout: default
 # Executable Scenario Workbench
 
 The ExSce Workbench is a collection of tools that supports stakeholders in carrying out one or more
-activities of the ExSce Methodology. This includes:
+activities of the [ExSce Methodology](index.md#definitions). This includes:
 
 - [Floor Plan DSL](https://github.com/sesame-project/FloorPlan-DSL):
   A DSL for modeling the indoor floor plans of buildings
