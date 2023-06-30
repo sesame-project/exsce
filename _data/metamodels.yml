@@ -1,34 +1,34 @@
 - name: Geometry
-  description: TODO
+  description: Geometric concepts such as spatial relations, their coordinates or geometric shapes.
   files:
   - name: coordinates.json
     path: https://comp-rob2b.github.io/metamodels/geometry/coordinates.json
-    description: TODO
+    description: Coordinate representations associated with spatial relations such as position coordinate vectors or discrete cosine matrices
   - name: spatial-operators.json
     path: https://comp-rob2b.github.io/metamodels/geometry/spatial-operators.json
-    description: TODO
+    description: Operators on spatial relations such as the composition of positions
   - name: spatial-relations.json
     path: https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json
-    description: TODO
+    description: Spatial relations include positions (linear and angular) and their time derivatives (velocities and accelerations) but also directional (e.g. left/right or in front of) and distance relations (between different structural entities)
   - name: structural-entities.json
     path: https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json
-    description: TODO
+    description: The most fundamental geometric entities and relations including points, vectors, frames or simplicial complices (the "skeleton" of a rigid body)
   - name: polytope.json
     path: https://hbrs-sesame.github.io/metamodels/geometry/polytope.json
     description: Concepts to model polytopes
 
 - name: Kinematic Chain
-  description: TODO
+  description: Kinematic chains are motion constraints between geometric entities
   files:
   - name: operators.json
     path: https://comp-rob2b.github.io/metamodels/kinematic-chain/operators.json
-    description: TODO
+    description: Operators on kinematic chains include maps between joint space and Cartesian space quantities (e.g. forward kinematics) but also projections that occur in dynamics solvers
   - name: state.json
     path: https://comp-rob2b.github.io/metamodels/kinematic-chain/state.json
-    description: TODO
+    description: Simple joints can have constrainted, lower-dimensional representations of the joint's motion state which includes joint positions, velocities and accelerations
   - name: structural-entities.json
     path: https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json
-    description: TODO
+    description: Structural entities of kinematic chains are all about joints that constrain the relative motion between geometric entities
 
 - name: Algorithm
   description: TODO
@@ -44,12 +44,12 @@
     path: https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics.json
     description: TODO
 
-- name: Units
-  description: TODO
+- name: Physical Quantities and Units
+  description: Any robot model must conform to physical quantities and units because a robotic system acts in the physical world
   files:
   - name: qudt.json
     path: https://comp-rob2b.github.io/metamodels/qudt.json
-    description: TODO
+    description: QUDT is an established ontology of physical quantities and units, here we just represent the JSON-LD context
 
 - name: Acceptance Criteria
   description: Metamodels for specifying acceptance criteria of robotic scenarios.
