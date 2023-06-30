@@ -1,12 +1,12 @@
-- tool_name: Executable Scenario Management
+- tool_name: mt-prov
   tool_link: https://hbrs-sesame.github.io/exsce_management/
   tutorials:
     - title: Modelling and executing a scenario to record provenance data
-      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#defining-a-base-scenario
+      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#modelling-and-executing-a-scenario-to-record-provenance-data
     - title: Defining a baseline oracle and validating new executions
-      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#validating-new-runs
-    - title: Modelling and executing a scenario to record provenance data
-      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#generating-new-scenarios-by-applying-input-transformations
+      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#defining-a-baseline-oracle-and-validating-new-executions
+    - title: Generating new scenarios
+      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#generating-new-scenarios
 - tool_name: kindynsyn
   tool_link: https://github.com/hbrs-sesame/kindyngen
   tutorials:
