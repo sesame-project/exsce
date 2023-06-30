@@ -1,3 +1,12 @@
+- tool_name: Executable Scenario Management
+  tool_link: https://hbrs-sesame.github.io/exsce_management/
+  tutorials:
+    - title: Modelling and executing a scenario to record provenance data
+      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#defining-a-base-scenario
+    - title: Defining a baseline oracle and validating new executions
+      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#validating-new-runs
+    - title: Modelling and executing a scenario to record provenance data
+      link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#generating-new-scenarios-by-applying-input-transformations
 - tool_name: kindynsyn
   tool_link: https://github.com/hbrs-sesame/kindyngen
   tutorials:
@@ -10,6 +19,8 @@
     link: https://github.com/hbrs-sesame/FloorPlan-DSL/blob/main/docs/Tutorial.md
   - title: Modelling objects with movement constraints and placing them in indoor environments
     link: https://github.com/hbrs-sesame/floorplan-object-modelling-and-placement/blob/master/docs/tutorial.md
+  - title: How to introduce variations into the environment
+    link: https://github.com/hbrs-sesame/FloorPlan-DSL/blob/main/docs/Variation.md
 - tool_name: bdd-dsl
   tool_link: https://hbrs-sesame.github.io/bdd-dsl/
   tutorials:
