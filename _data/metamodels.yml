@@ -59,19 +59,6 @@
     description:
       Metamodel for specifying BDD templates and their variants, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#bdd-scenario-templates-and-variants)
-
-- name: Coordination
-  description: Metamodels for coordinating the execution of robot behaviours
-  files:
-  - name: event.json
-    path: https://hbrs-sesame.github.io/metamodels/coordination/event.json
-    description:
-      Metamodel for specifying event-driven coordination of robot behaviours, see
-      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#coordination)
-
-- name: Scenario
-  description: Metamodels for specifying robotic scenarios
-  files:
   - name: agent.json
     path: https://hbrs-sesame.github.io/metamodels/agent.json
     description:
@@ -87,6 +74,15 @@
     description:
       Metamodel for specifying task-related concepts and relations in a robotic scenario, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#task)
+
+- name: Coordination
+  description: Metamodels for coordinating the execution of robot behaviours
+  files:
+  - name: event.json
+    path: https://hbrs-sesame.github.io/metamodels/coordination/event.json
+    description:
+      Metamodel for specifying event-driven coordination of robot behaviours, see
+      [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#coordination)
 
 - name: Floor Plan
   description: Metamodels for specifying indoor environments and objects
