@@ -1,0 +1,17 @@
+- tool_name: kindynsyn
+  tool_link: https://github.com/hbrs-sesame/kindyngen
+  tutorials:
+  - title: Composable robot models - A modelling tutorial for kinematic chains and their behaviour
+    link: https://github.com/comp-rob2b/modelling-tutorial/
+- tool_name: FloorPlan DSL
+  tool_link: https://github.com/hbrs-sesame/FloorPlan-DSL
+  tutorials:
+  - title: How to specify an indoor environment
+    link: https://github.com/hbrs-sesame/FloorPlan-DSL/blob/main/docs/Tutorial.md
+  - title: Modelling objects with movement constraints and placing them in indoor environments
+    link: https://github.com/hbrs-sesame/floorplan-object-modelling-and-placement/blob/master/docs/tutorial.md
+- tool_name: bdd-dsl
+  tool_link: https://hbrs-sesame.github.io/bdd-dsl/
+  tutorials:
+  - title: Modelling and Generating Gherkin features for A Simple Pickup task
+    link: https://hbrs-sesame.github.io/bdd-dsl/bdd-tutorial-feature-gen.html
