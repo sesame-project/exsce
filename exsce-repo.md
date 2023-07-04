@@ -4,11 +4,15 @@ layout: default
 
 # Repository of Executable Scenarios
 
-## Overview
-
-This is the landing page to showcase the metamodels and models developed in the context of the
-[SESAME project](https://www.sesame-project.org/) to support the
-[Executable Workbench](exsce-workbench.md).
+This is the landing page for the Repository of Executable Scenarios, which consists of
+metamodels and models created during the development and application of tools in the
+[Executable Workbench](exsce-workbench.md) and
+[ExSce Management](https://github.com/hbrs-sesame/exsce_management) to support the
+[ExSce Concept and Methodology](terminology.md). In the following sections, we first
+present the different metamodels developed for ExSce, organized by their respective
+domains. Afterwards, we list the tutorials showcasing how these metamodels can be
+composed to create composable models and the various transformations enabled by
+our tools to support different use cases.
 
 ## Metamodels
 {% for domain in site.data.metamodels %}
@@ -23,11 +27,15 @@ This is the landing page to showcase the metamodels and models developed in the 
 
 ## Tutorials
 
-We created several tutorials showcasing how to create composable models from the metamodels
-described above for use with the various tools developed for the
-[ExSce Workbench](exsce-workbench.md). These tutorials also demonstrate how the ExSce methodology
-can improve composability and promote reuse of these models, showing how they can be extended
-to adapt to different variations of the original use case. Our tutorials include:
+The development of tools in the [ExSce Workbench](exsce-workbench.md) produces many artefacts,
+either as compositions of our metamodels or from various transformations to support different
+use cases. Finding a single structure to organize these artefacts can therefore be challenging,
+since they often involve the complex interplay of different domains and support different
+stakeholder activities. As such, we present our models through a list of tutorials showcasing
+how they can be composed and transformed to serve specific stakeholder workflows. The tutorials
+can then link to our models while describing how they are used in the context of each workflow.
+Many of our models are hosted on the [hbrs-sesame/models](https://github.com/hbrs-sesame/models)
+repository. Our tutorials include:
 
 {% for tool_data in site.data.tutorials %}
 ### [{{tool_data.tool_name}}]({{tool_data.tool_link}})
