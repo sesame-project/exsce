@@ -6,7 +6,7 @@ layout: default
 This is the landing page for the work done in the context of the Executable Scenario (ExSce)
 work package of the [SESAME project](https://www.sesame-project.org/). This includes:
 
-1. **[Executable Scenario Management](https://hbrs-sesame.github.io/exsce_management/)**:
+1. **[Executable Scenario Management](https://github.com/hbrs-sesame/exsce_management)**:
    graph-based scenario-management approach.
 2. **[An open repository of executable scenarios](exsce-repo.md)**:
    A repository of models and metamodels developed to support scenario specification for

@@ -7,7 +7,8 @@ layout: default
 ## Overview
 
 This is the landing page to showcase the metamodels and models developed in the context of the
-[SESAME project](https://www.sesame-project.org/) to support the Executable Workbench.
+[SESAME project](https://www.sesame-project.org/) to support the
+[Executable Workbench](exsce-workbench.md).
 
 ## Metamodels
 {% for domain in site.data.metamodels %}

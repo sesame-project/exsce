@@ -5,6 +5,7 @@ plugins:
 # General infos
 title: Executable Scenario
 logo: assets/img/sesame_logo_tagline.svg
+project_url: https://www.sesame-project.org/
 description: The Executable Scenario (ExSce) Work Package of the SESAME project.
 show_downloads: false
 google_analytics:
