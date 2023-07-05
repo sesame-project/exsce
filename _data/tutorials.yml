@@ -12,6 +12,12 @@
   tutorials:
   - title: Composable robot models - A modelling tutorial for kinematic chains and their behaviour
     link: https://github.com/comp-rob2b/modelling-tutorial/
+  - title: Configuring solvers
+    link: https://github.com/hbrs-sesame/kindyngen/blob/main/docs/tutorial_solver_configuration.md
+  - title: Solver sweep & robot interface
+    link: https://github.com/hbrs-sesame/kindyngen/blob/main/docs/tutorial_solver_robif.md
+  - title: Cartesian control
+    link: https://github.com/hbrs-sesame/kindyngen/blob/main/docs/tutorial_controller.md
 - tool_name: FloorPlan DSL
   tool_link: https://github.com/hbrs-sesame/FloorPlan-DSL
   tutorials:

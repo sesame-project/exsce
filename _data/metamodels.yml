@@ -25,17 +25,23 @@
     description: Operators on kinematic chains include maps between joint space and Cartesian space quantities (e.g. forward kinematics) but also projections that occur in dynamics solvers
   - name: state.json
     path: https://comp-rob2b.github.io/metamodels/kinematic-chain/state.json
-    description: Simple joints can have constrainted, lower-dimensional representations of the joint's motion state which includes joint positions, velocities and accelerations
+    description: Simple joints can have constrained, lower-dimensional representations of the joint's motion state which includes joint positions, velocities and accelerations
   - name: structural-entities.json
     path: https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json
     description: Structural entities of kinematic chains are all about joints that constrain the relative motion between geometric entities
 
 - name: Algorithm
-  description: TODO
+  description:
+    [Merriam-Webster](https://www.merriam-webster.com/dictionary/algorithm) broadly defines
+    an algorithm as "a step-by-step procedure for solving a problem or achieving a
+    desired outcome." When it comes to Multi-Robot Systems (MRS), our focus lies in
+    computational problems that are pertinent to implementing various MRS behaviors.
   files:
   - name: algorithm.json
     path: https://comp-rob2b.github.io/metamodels/algorithm.json
-    description: TODO
+    description:
+      Metamodel to specify the computations necessary for MRS to achieve the goals.
+      (TODO link to longer documentation).
 
 - name: Dynamics
   description: TODO
