@@ -32,10 +32,10 @@
 
 - name: Algorithm
   description:
-    [Merriam-Webster](https://www.merriam-webster.com/dictionary/algorithm) broadly defines
-    an algorithm as "a step-by-step procedure for solving a problem or achieving a
-    desired outcome." When it comes to Multi-Robot Systems (MRS), our focus lies in
-    computational problems that are pertinent to implementing various MRS behaviors.
+    According to [Merriam-Webster](https://www.merriam-webster.com/dictionary/algorithm),
+    an algorithm can be broadly defined as "a step-by-step procedure for solving a problem
+    or achieving a desired outcome." When it comes to Multi-Robot Systems (MRS), our focus
+    lies in computational problems that are pertinent to implementing various MRS behaviors.
   files:
   - name: algorithm.json
     path: https://comp-rob2b.github.io/metamodels/algorithm.json
