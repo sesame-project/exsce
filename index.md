@@ -28,10 +28,12 @@ The ExSce workbench has been used to support the following scientific articles
    _IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2023.
 2. S. Schneider, N. Hochgeschwender, and H. Bruyninckx, "Domain-specific languages for kinematic
    chains and their solver algorithms: lessons learned for composable models,"
-   _IEEE International Conference on Robotics and Automation (ICRA)_, 2023.
-3. D. Nurchalifah, S. Blumenthal, L. Lo Iacono, and N. Hochgeschwender, "Analysing the Safety and
-   Security of a UV-C Disinfection Robot,"
-   _IEEE International Conference on Robotics and Automation (ICRA)_, 2023.
+   _IEEE International Conference on Robotics and Automation (ICRA)_, 2023,
+   doi: [10.1109/ICRA48891.2023.10160474](https://doi.org/10.1109/ICRA48891.2023.10160474)
+3. D. Nurchalifah, S. Blumenthal, L. Lo Iacono, and N. Hochgeschwender,
+   "Analysing the Safety and Security of a UV-C Disinfection Robot,"
+   _IEEE International Conference on Robotics and Automation (ICRA)_, 2023,
+   doi: [10.1109/ICRA48891.2023.10160527](https://doi.org/10.1109/ICRA48891.2023.10160527).
 4. M. Nguyen, N. Hochgeschwender, S. Wrede, "An analysis of behaviour-driven requirement specification
    for robotic competitions",
    [_5th International Workshop on Robotics Software Engineering (RoSE’23)_](https://rose-workshops.github.io/rose2023/), 2023.
