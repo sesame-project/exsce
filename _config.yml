@@ -10,3 +10,7 @@ description: The Executable Scenario (ExSce) Work Package of the SESAME project.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+
+github:
+  owner_name:  SECORO Group at the University of Bremen 
+  owner_url: https://github.com/secorolab
