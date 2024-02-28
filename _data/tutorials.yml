@@ -7,17 +7,17 @@
       link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#defining-a-baseline-oracle-and-validating-new-executions
     - title: Generating new scenarios
       link: https://hbrs-sesame.github.io/exsce_management/tutorial.html#generating-new-scenarios
-- tool_name: kindynsyn
-  tool_link: https://github.com/hbrs-sesame/kindyngen
+- tool_name: kindyngen
+  tool_link: https://github.com/secorolab/kindyngen
   tutorials:
   - title: Composable robot models - A modelling tutorial for kinematic chains and their behaviour
     link: https://github.com/comp-rob2b/modelling-tutorial/
   - title: Configuring solvers
-    link: https://github.com/hbrs-sesame/kindyngen/blob/main/docs/tutorial_solver_configuration.md
+    link: https://github.com/secorolab/kindyngen/blob/main/docs/tutorial_solver_configuration.md
   - title: Solver sweep & robot interface
-    link: https://github.com/hbrs-sesame/kindyngen/blob/main/docs/tutorial_solver_robif.md
+    link: https://github.com/secorolab/kindyngen/blob/main/docs/tutorial_solver_robif.md
   - title: Cartesian control
-    link: https://github.com/hbrs-sesame/kindyngen/blob/main/docs/tutorial_controller.md
+    link: https://github.com/secorolab/kindyngen/blob/main/docs/tutorial_controller.md
 - tool_name: FloorPlan DSL
   tool_link: https://github.com/hbrs-sesame/FloorPlan-DSL
   tutorials:

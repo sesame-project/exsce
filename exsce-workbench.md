@@ -8,7 +8,7 @@ activities of the [ExSce Methodology](terminology.md). This includes:
 
 - [Floor Plan DSL](https://github.com/sesame-project/FloorPlan-DSL):
   A DSL for modeling the indoor floor plans of buildings.
-- [kindyngen](https://github.com/hbrs-sesame/kindyngen) is a toolchain to transform
+- [kindyngen](https://github.com/secorolab/kindyngen) is a toolchain to transform
   composable models of kinematic chains and queries thereupon into correct-by-construction
   solver code.
 - [bdd-dsl](https://hbrs-sesame.github.io/bdd-dsl/): metamodels and associated tooling for
