@@ -34,8 +34,8 @@ since they often involve the complex interplay of different domains and support 
 stakeholder activities. As such, we present our models through a list of tutorials showcasing
 how they can be composed and transformed to serve specific stakeholder workflows. The tutorials
 can then link to our models while describing how they are used in the context of each workflow.
-Many of our models are hosted on the [hbrs-sesame/models](https://github.com/hbrs-sesame/models)
-repository, for which a [landing page](https://hbrs-sesame.github.io/models/) is also available.
+Many of our models are hosted on the [hbrs-sesame/models](https://github.com/secorolab/models)
+repository, for which a [landing page](https://secorolab.github.io/models/) is also available.
 Our tutorials include:
 
 {% for tool_data in site.data.tutorials %}
