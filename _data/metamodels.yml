@@ -14,7 +14,7 @@
     path: https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json
     description: The most fundamental geometric entities and relations including points, vectors, frames or simplicial complices (the "skeleton" of a rigid body)
   - name: polytope.json
-    path: https://hbrs-sesame.github.io/metamodels/geometry/polytope.json
+    path: https://secorolab.github.io/metamodels/geometry/polytope.json
     description: Concepts to model polytopes
 
 - name: Kinematic Chain
@@ -61,22 +61,22 @@
   description: Metamodels for specifying acceptance criteria of robotic scenarios.
   files:
   - name: bdd.json
-    path: https://hbrs-sesame.github.io/metamodels/acceptance-criteria/bdd.json
+    path: https://secorolab.github.io/metamodels/acceptance-criteria/bdd.json
     description:
       Metamodel for specifying BDD templates and their variants, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#bdd-scenario-templates-and-variants)
   - name: agent.json
-    path: https://hbrs-sesame.github.io/metamodels/agent.json
+    path: https://secorolab.github.io/metamodels/agent.json
     description:
       Metamodel for specifying agents in a robotic scenario, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#agent)
   - name: environment.json
-    path: https://hbrs-sesame.github.io/metamodels/environment.json
+    path: https://secorolab.github.io/metamodels/environment.json
     description:
       Metamodel for specifying elements in the environment of a robotic scenario, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#environment)
   - name: task.json
-    path: https://hbrs-sesame.github.io/metamodels/task.json
+    path: https://secorolab.github.io/metamodels/task.json
     description:
       Metamodel for specifying task-related concepts and relations in a robotic scenario, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#task)
@@ -85,7 +85,7 @@
   description: Metamodels for coordinating the execution of robot behaviours
   files:
   - name: event.json
-    path: https://hbrs-sesame.github.io/metamodels/coordination/event.json
+    path: https://secorolab.github.io/metamodels/coordination/event.json
     description:
       Metamodel for specifying event-driven coordination of robot behaviours, see
       [documentation](https://hbrs-sesame.github.io/bdd-dsl/bdd-concepts.html#coordination)
@@ -94,18 +94,18 @@
   description: Metamodels for specifying indoor environments and objects
   files:
     - name: floor-plan.json
-      path: https://hbrs-sesame.github.io/metamodels/floor-plan/floor-plan.json
+      path: https://secorolab.github.io/metamodels/floor-plan/floor-plan.json
       description: Concepts for modelling floor plans
     - name: object.json
-      path: https://hbrs-sesame.github.io/metamodels/floor-plan/object.json
+      path: https://secorolab.github.io/metamodels/floor-plan/object.json
       description: Concepts for modelling objects
     - name: state.json
-      path: https://hbrs-sesame.github.io/metamodels/floor-plan/state.json
+      path: https://secorolab.github.io/metamodels/floor-plan/state.json
       description: Concepts for modelling states
 
 - name: Simulation
   description: Metamodels for specific simulators
   files:
     - name: gazebo.json
-      path: https://hbrs-sesame.github.io/metamodels/simulation/gazebo.json
+      path: https://secorolab.github.io/metamodels/simulation/gazebo.json
       description: Concepts for modelling the visual and collision representation of objects for Gazebo
